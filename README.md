@@ -55,10 +55,13 @@ How to Run Tests
 To run the tests, use the following command:
 
 ./gradlew clean build
+
 ./gradlew test
 
 
+
 Why these technologies?
+
 Kotlin: I chose Kotlin as the programming language because of its conciseness, expressiveness, and strong type inference, which leads to less boilerplate code and increased productivity. Additionally, Kotlin is fully interoperable with Java, making it suitable for existing Java projects.
 
 Koin (Dependency Injection): I opted for Koin as the DI framework because of its simplicity and ease of use. Koin offers a DSL-based approach, reducing the complexity of DI setup and making it easier to manage dependencies in a modular and testable manner.
